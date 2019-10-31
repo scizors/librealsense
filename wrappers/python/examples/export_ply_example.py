@@ -17,7 +17,7 @@ points = rs.points()
 # Declare RealSense pipeline, encapsulating the actual device and sensors
 pipe = rs.pipeline()
 #Start streaming with default recommended configuration
-pipe.start();
+pipe.start()
 
 try:
     # Wait for the next set of frames from the camera
